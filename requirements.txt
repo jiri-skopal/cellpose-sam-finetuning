@@ -1,0 +1,15 @@
+# Cellpose-SAM: https://github.com/MouseLand/cellpose
+#
+# GPU (NVIDIA): install PyTorch with CUDA before cellpose so training/inference use the GPU.
+# Necessary to pick correct PyTorch version and CUDA version.
+# Install e.g. CUDA 12.4 by command:
+# `pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124`
+# Then run `pip install -r requirements.txt` to install Cellpose.
+#
+# CPU only: you may run `pip install -r requirements.txt` directly; Cellpose will use CPU
+#
+# Fine-tuning with the thesis driver requires replacing installed `train.py` with the
+# provided file; see practical guide in thesis.
+
+cellpose
+packaging

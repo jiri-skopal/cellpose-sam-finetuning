@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Cellpose / inference outputs
+*_cp_masks.tif
+*.npy
+*.log
+
+# Fine-tuning outputs
+finetuning_output/
+
+# Model weights (distributed via thesis attachment, not this repo)
+*.pt
+*.pth
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
